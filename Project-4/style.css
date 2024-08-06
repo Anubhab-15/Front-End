@@ -1,0 +1,96 @@
+/* Write styles here */
+* {
+  font-family: "Allerta";
+}
+body {
+  margin: 0;
+}
+
+.logo {
+  margin-top: 10px;
+}
+#imgMain {
+  position: absolute;
+  right: 0;
+  top: 60px;
+}
+
+#navbarMonstera {
+  display: flex;
+  margin-left: 20px;
+  position: relative;
+  justify-content: space-between;
+}
+#navMid {
+  display: flex;
+  justify-content: space-between;
+}
+h4 {
+  margin-left: 40px;
+  text-underline-position: below;
+}
+
+#navEnd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.svg {
+  margin-left: 20px;
+}
+#monstera {
+  font-family: "Allerta";
+  font-size: 82px;
+  font-weight: 900;
+  position: relative;
+  top: 60px;
+}
+#midWhole {
+  display: flex;
+}
+.active {
+  text-decoration: underline;
+}
+#midWholePart121 {
+  background-color: #466d50;
+  border-radius: 90px;
+  width: 220px;
+  height: 40px;
+  position: relative;
+  left: 50px;
+  top: 40px;
+  padding: 0px;
+}
+#midWholePart122 {
+  position: relative;
+  left: 40px;
+  color: #000000;
+  height: 40vh;
+}
+
+#midWholePart13 {
+  display: flex;
+  margin-top: 63px;
+  height: 70%;
+}
+.midWholePart13Parts {
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+}
+
+#midWholePart1 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.imagg {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
